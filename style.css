@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(120deg, #f0f2f5, #ffffff);
+    color: #333;
+}
+
+.panel {
+    max-width: 900px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 14px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.heading {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.contacts {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contacts a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin: 25px 0 40px;
+    list-style: none;
+}
+
+.skills li {
+    background: #f5f7fa;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.projects {
+    list-style: none;
+}
+
+.projects li {
+    margin-bottom: 30px;
+}
+
+.projects a {
+    font-weight: 700;
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.projects a:hover {
+    color: #3498db;
+}
+
+.projects p {
+    margin-top: 10px;
+    color: #555;
+}
